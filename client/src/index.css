@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.navbar button {
+  margin-left: 16px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+.blog-preview small {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details .blog-body {
+  margin: 20px 0;
+}
+
+/* Rating layout: two cards stacked (or side-by-side on wider screens) */
+.rating-panels {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0 8px;
+}
+@media (min-width: 700px) {
+  .rating-panels {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Rating cards */
+.rating-card {
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+.rating-card--summary {
+  background: #fffaf2; /* warm */
+}
+.rating-card--action {
+  background: #f8fbff; /* cool */
+}
+
+.rating-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.rating-card__title {
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.rating-chip {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eee;
+  color: #555;
+}
+
+.rating-card__content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating-note {
+  color: #555;
+}
+
+.rating-muted {
+  color: #777;
+}
+
+/* Owner actions block */
+.owner-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.edit-window-note {
+  color: #777;
+  display: block;
+  margin-top: 6px;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

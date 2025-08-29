@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": "f328dcbf6",
+      "name": "Mario",
+      "email": "mario@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "f98dcbf3",
+      "name": "Yoshi",
+      "email": "yoshi@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "f98dcbf6",
+      "name": "xx",
+      "email": "xx@example.com",
+      "password": "pas123"
+    },
+    {
+      "id": "6fed6a52",
+      "name": "cc",
+      "email": "cc@example.com",
+      "password": "pas123"
+    },
+    {
+      "id": "22a38ad6",
+      "name": "vv",
+      "email": "vv@example.com",
+      "password": "pas123"
+    },
+    {
+      "id": "01e9aebc",
+      "name": "qq",
+      "email": "qq@example.com",
+      "password": "qqq"
+    },
+    {
+      "id": "01253f8a",
+      "name": "usr",
+      "email": "usr@example.com",
+      "password": "123"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "My First Blog",
+      "body": "Starting my blog",
+      "author": "mario",
+      "userId": "f328dcbf6",
+      "createdAt": "2025-08-01T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Opening Party!",
+      "body": "Lets celebrate toghether!",
+      "author": "yoshi",
+      "userId": "f98dcbf3",
+      "createdAt": "2025-08-10T09:30:00.000Z"
+    },
+    {
+      "id": "b303",
+      "title": "My new brand blog",
+      "body": "Why do we use it?\\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\\n\\n\\nWhere does it come from?\\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \\\"de Finibus Bonorum et Malorum\\\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \\\"Lorem ipsum dolor sit amet..\\\", comes from a line in section 1.10.32.\\n\\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \\\"de Finibus Bonorum et Malorum\\\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\\n\\nWhere can I get some?\\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "xx",
+      "userId": "f98dcbf6",
+      "createdAt": "2025-08-22T09:35:50.358Z"
+    },
+    {
+      "id": "294f",
+      "title": "edit123321",
+      "body": "edit123321",
+      "author": "xx",
+      "userId": "f98dcbf6",
+      "createdAt": "2025-08-22T11:12:42.653Z",
+      "ratings": []
+    },
+    {
+      "id": "f8b7",
+      "title": "today tommorow",
+      "body": "today tomorrow",
+      "author": "xx",
+      "userId": "f98dcbf6",
+      "createdAt": "2025-08-23T14:11:46.557Z",
+      "ratings": []
+    }
+  ],
+  "ratings": [
+    {
+      "id": "r1",
+      "blogId": "1",
+      "userId": "f98dcbf3",
+      "value": 5,
+      "createdAt": "2025-08-20T10:00:00.000Z"
+    },
+    {
+      "id": "r2",
+      "blogId": "2",
+      "userId": "f328dcbf6",
+      "value": 4,
+      "createdAt": "2025-08-20T11:00:00.000Z"
+    },
+    {
+      "id": "5221d465",
+      "blogId": "1",
+      "userId": "f98dcbf6",
+      "value": 1,
+      "createdAt": "2025-08-22T09:36:24.675Z"
+    },
+    {
+      "id": "4f4aa557",
+      "blogId": "2",
+      "userId": "f98dcbf6",
+      "value": 2,
+      "createdAt": "2025-08-22T11:11:35.543Z"
+    },
+    {
+      "id": "d5636684",
+      "blogId": "294f",
+      "userId": "6fed6a52",
+      "value": 1,
+      "createdAt": "2025-08-22T11:16:39.343Z"
+    },
+    {
+      "id": "f775c434",
+      "blogId": "294f",
+      "userId": "22a38ad6",
+      "value": 5,
+      "createdAt": "2025-08-22T11:16:56.591Z"
+    },
+    {
+      "id": "3f55daf4",
+      "blogId": "b303",
+      "userId": "22a38ad6",
+      "value": 3,
+      "createdAt": "2025-08-22T11:20:52.942Z"
+    },
+    {
+      "id": "5c28952c",
+      "blogId": "294f",
+      "userId": "01e9aebc",
+      "value": 5,
+      "createdAt": "2025-08-23T14:10:35.692Z"
+    },
+    {
+      "id": "b6781322",
+      "blogId": "f8b7",
+      "userId": "01253f8a",
+      "value": 5,
+      "createdAt": "2025-08-25T15:06:17.120Z"
+    },
+    {
+      "id": "91eb25f1",
+      "blogId": "294f",
+      "userId": "01253f8a",
+      "value": 5,
+      "createdAt": "2025-08-25T15:06:48.053Z"
+    }
+  ]
+}
